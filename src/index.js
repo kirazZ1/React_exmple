@@ -1,6 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
+//import './index.css';
+//全局样式
+import './assets/styles/core.less'
+
+//初始化样式
+import 'normalize.css'
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 
